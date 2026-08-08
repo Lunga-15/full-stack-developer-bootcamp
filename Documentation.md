@@ -1,11 +1,10 @@
-
-# ☕ Coffee Brew Log — Project Documentation
+#  Coffee Brew Log — Project Documentation
 
 A responsive full-stack web application that allows coffee enthusiasts to log brew details, track recipes, filter entries by brewing methods and record tasting notes.
 
 ---
 
-## 🏗️ Architecture & Tech Stack
+## Architecture & Tech Stack
 
 ### Frontend (`/frontend`)
 - **Framework:** React 18 (Vite)
@@ -24,9 +23,9 @@ A responsive full-stack web application that allows coffee enthusiasts to log br
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
-
+```text
 coffee-brew-log/
 ├── backend/
 │   ├── prisma/
@@ -45,10 +44,10 @@ coffee-brew-log/
 │   ├── vite.config.js
 │   └── package.json
 ├── Documentation.md         # Project documentation
-├── deployment.md            # Deployment details & URLs
+└── deployment.md            # Deployment details & URLs
 
 
-Local Setup & Installation
+Repository Structure
 
 Prerequisites
 Node.js: v18.0.0 or higher
