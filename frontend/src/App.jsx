@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import BrewCard from './BrewCard';
 import BrewModal from './BrewModal';
 
-const API_BASE = 'http://localhost:5000/api/brews';
+const API_BASE = 'https://coffee-brew-log-api-aewk.onrender.com';
 const FILTER_OPTIONS = ['All', 'Pour Over', 'French Press', 'Espresso', 'Aeropress', 'Cold Brew'];
 
 export default function App() {
