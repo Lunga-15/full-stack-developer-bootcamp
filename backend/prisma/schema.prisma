@@ -1,0 +1,22 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Brew {
+  id            Int      @id @default(autoincrement())
+  beans         String
+  method        String
+  coffee_grams  Float
+  water_grams   Float
+  rating        Int
+  tasting_notes String
+  createdAt     DateTime @default(now())
+}
